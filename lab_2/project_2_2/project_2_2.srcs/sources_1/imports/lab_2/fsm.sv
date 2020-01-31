@@ -13,7 +13,7 @@
 
 module fsm(
     input logic clk, rst, load, x_eq_y, x_gt_y,
-    output logic xsel, xload, ysel, yload, sub_sel, done
+    output logic xsel, xload, ysel, yload, done
     );
     
     // symbolic state names as an enumerated type
@@ -45,8 +45,7 @@ module fsm(
     always_comb
     begin
         // default outputs
-        xload = 0; xsel = 0; yload = 0; ysel = 0; 
-        sub_sel = 0; done = 0;
+        xload = 0; xsel = 0; yload = 0; ysel = 0; done = 0;
             case (state)
                 loadx : 
                     begin
@@ -58,7 +57,7 @@ module fsm(
                     end
                 y_diff : 
                     begin
-                        yload = 1; sub_sel = 1;
+                        yload = 1;
                     end
                 x_diff : xload = 1;
                 fine : done = 1;

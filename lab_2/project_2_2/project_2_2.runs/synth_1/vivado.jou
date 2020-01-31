@@ -2,8 +2,8 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Thu Jan 30 22:06:34 2020
-# Process ID: 1192
+# Start of session at: Thu Jan 30 22:57:43 2020
+# Process ID: 6708
 # Current directory: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.runs/synth_1
 # Command line: vivado.exe -log gcd_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd_core.tcl
 # Log file: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.runs/synth_1/gcd_core.vds

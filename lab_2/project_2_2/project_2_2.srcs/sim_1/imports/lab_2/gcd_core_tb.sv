@@ -1,75 +1,79 @@
 `timescale 1ns / 1ps
-/////////////////////////////////////////////////////////////////
-// Module Name: lab1_tb
-/////////////////////////////////////////////////////////////////
-module gcd_core_tb;
 
-// Inputs
-logic clk;
-logic rst;
-logic load;
-logic [7:0] din;
-// Outputs
-logic [7:0] gcd_result;
-logic done;
-// Instantiate the Unit Under Test (UUT)
-gcd_core uut (
-.clk(clk),
-.rst(rst),
-.load(load),
-.din(din),
-.gcd_result(gcd_result),
-.done(done)
-);
+module tb;
 
-parameter CLK_PRD = 100; // 10 MHz clock
-parameter HOLD_TIME = (CLK_PRD*0.3);
+	// Inputs
+	logic clk;
+	logic rst;
+	logic load;
+	logic [7:0] din;
 
-initial begin
-clk <= 0;
-forever #(CLK_PRD/2) clk = ~clk;
-end
+	// Outputs
+	logic [7:0] gcd_result;
+	logic done;
 
-initial begin
-// Initialize Inputs
-rst = 0;
-load = 0;
-din = 8'bx;
+	// Instantiate the Unit Under Test (UUT)
+	gcd_core uut (
+		.clk(clk), 
+		.rst(rst), 
+		.load(load), 
+		.din(din), 
+		.gcd_result(gcd_result), 
+		.done(done)
+	);
 
-// Wait 100 ns for global reset to finish
-#100;
+	parameter CLK_PRD = 100; // 10 MHz clock
+	parameter HOLD_TIME = (CLK_PRD*0.3);
+	parameter MAX_SIM_TIME = (CLK_PRD*30);
+	
+	initial #(MAX_SIM_TIME) $finish;
+	
+	initial begin
+		clk <= 0;
+		forever #(CLK_PRD/2) clk = ~clk;
+	end
+	
+	initial begin
+		// Initialize Inputs
+		rst = 0;
+		load = 0;
+		din = 8'bx;
 
-// Add stimulus here
+		// Wait 100 ns for global reset to finish
+		#100;
 
-@(posedge clk); // align with clock edge
-
-#HOLD_TIME; // offset a hold time
-
-repeat(2) #CLK_PRD; // Now only wait integer clock periods
-
-rst = 1; #CLK_PRD;
-
-rst = 0;
-
-repeat(2) #CLK_PRD;
-
-load = 1; #CLK_PRD;
-
-load = 0; din = 8'd27; #CLK_PRD;
-
-din = 8'd18; #CLK_PRD;
-
-din = 8'bx; #CLK_PRD;
-
-begin : run_loop
-forever
-begin
-@(posedge clk);
-if (done) disable run_loop;
-end
-end // run_loops
-
-$finish;
-
-end
+		// Add stimulus here
+		
+		@(posedge clk); // align with clock edge
+		
+		#HOLD_TIME; // offset a hold time
+		
+		repeat(2) #CLK_PRD;
+		
+		rst = 1; #CLK_PRD;
+		
+		rst = 0;
+		
+		repeat(2) #CLK_PRD;
+		
+		load = 1; #CLK_PRD;
+		
+		load = 0; din = 8'd6; #CLK_PRD;
+		
+		din = 8'd4; #CLK_PRD;
+		
+		din = 8'bx; #CLK_PRD;
+		
+		begin : run_loop
+			forever
+				begin
+					@(posedge clk);
+					if (done) disable run_loop;
+				end
+		end // run_loop
+		
+		$finish;
+			
+	end
+	      
 endmodule

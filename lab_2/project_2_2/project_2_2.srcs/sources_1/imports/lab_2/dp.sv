@@ -12,42 +12,63 @@
 
 
 module dp(
-    input logic xsel, xload, ysel, yload, 
-    sub_sel,clk,
+    input logic xsel, xload,
+    ysel, yload,clk,
     input logic [7:0] din,
     output logic x_eq_y, x_gt_y,
     output logic [7:0] gcd_result
     );
     
-    logic [7:0] diff;
+    logic [7:0] x_diff_y,y_diff_x;
     logic [7:0] x,y;
     
     // comparators
     
     assign x_eq_y = (x == y);
     assign x_gt_y = (x >= y);
+   
     
-    // subtractor and muxes
-    
-    assign diff = (sub_sel ? y : x) - (sub_sel ? x : y);
-    
-    // x and y registers with cascaded muxes
-    always_ff @(posedge clk)
-    
-    begin
-    
-    if (xload)
-        if (xsel)  // could have used ternary operator
-            x <= din;
-        else x <= diff;
-    
-    if (yload)
-        if (ysel)
-            y <= din;
-        else y <= diff;
-    
-    end
-    
-    assign gcd_result = x;
-    
-endmodule
+    // use subractors  
+    always_comb
+       begin
+       
+       gcd_result = 0;
+       x_diff_y = 0;
+       y_diff_x = 0;
+       
+       if (x==y)
+                  gcd_result = x;
+       
+       if (x>y)
+          begin 
+              x_diff_y = x - y;
+              gcd_result = x - y;
+          end
+       
+       if (x<y) 
+          begin
+              y_diff_x = y - x;
+              gcd_result = y - x;
+          end
+      
+      end     
+   
+               
+       // x and y registers with cascaded muxes
+       always_ff @(posedge clk)
+       
+       begin
+       
+       if (xload)
+           x <= x_diff_y;
+       else if (~xsel)
+           x <= din;
+           
+       if (yload)
+           y <= y_diff_x;
+       else if (~ysel)
+           y <= din;
+      
+       end
+        
+   endmodule

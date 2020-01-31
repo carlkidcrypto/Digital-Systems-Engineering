@@ -1,8 +1,15 @@
 Vivado Simulator 2016.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 2748d94bc5e14db8b4769e3a1f78922f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gcd_core_tb_behav xil_defaultlib.gcd_core_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 2748d94bc5e14db8b4769e3a1f78922f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-426] cannot find port gcd_rslt on this module [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.srcs/sim_1/imports/lab_2/gcd_core_tb.sv:16]
-ERROR: [VRFC 10-426] cannot find port gcd_rslt on this module [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.srcs/sim_1/imports/lab_2/gcd_core_tb.sv:21]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dp
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.gcd_core
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

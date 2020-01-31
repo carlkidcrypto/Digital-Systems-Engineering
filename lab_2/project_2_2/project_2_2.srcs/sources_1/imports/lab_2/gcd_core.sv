@@ -29,7 +29,6 @@ dp dp1 (
     .xload(xload), 
     .ysel(ysel), 
     .yload(yload), 
-    .sub_sel(sub_sel), 
     .din(din), 
     .x_eq_y(x_eq_y), 
     .x_gt_y(x_gt_y), 

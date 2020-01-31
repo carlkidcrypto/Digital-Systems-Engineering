@@ -49,15 +49,12 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint {C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.runs/impl_1/gcd_core.dcp}
   set_property webtalk.parent_dir {C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.cache/wt} [current_project]
   set_property parent.project_path {C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.xpr} [current_project]
   set_property ip_output_repo {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.runs/synth_1/gcd_core.dcp}}
-  read_xdc {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_2/project_2_2/project_2_2.srcs/constrs_1/imports/lab_2/project_2_zybo.xdc}}
-  link_design -top gcd_core -part xc7z010clg400-1
   write_hwdef -file gcd_core.hwdef
   close_msg_db -file init_design.pb
 } RESULT]

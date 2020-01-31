@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1580450792">
-  <File Type="PA-TCL" Name="gcd_core.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1580453861">
   <File Type="RDS-PROPCONSTRS" Name="gcd_core_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="gcd_core.tcl"/>
   <File Type="RDS-RDS" Name="gcd_core.vds"/>
   <File Type="RDS-UTIL" Name="gcd_core_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="gcd_core_utilization_synth.pb"/>
