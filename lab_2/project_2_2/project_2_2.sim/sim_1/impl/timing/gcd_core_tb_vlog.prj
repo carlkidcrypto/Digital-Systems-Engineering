@@ -1,6 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  "gcd_core_tb_time_impl.v"
-sv xil_defaultlib  "../../../../project_2_2.srcs/sim_1/imports/lab_2/gcd_core_tb.sv"
-
-# Do not sort compile order
-nosort

@@ -1,0 +1,32 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 97134ba8309a4ecd82e941999baf67a5 --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot gcd_core_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.gcd_core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port gcd_result [C:/Users/carlo/Downloads/lab_2/project_2_3/project_2_3.srcs/sim_1/imports/lab_2/gcd_core_tb.sv:21]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "gcd_core_tb_time_synth.sdf", for root module "gcd_core_tb/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "gcd_core_tb_time_synth.sdf", for root module "gcd_core_tb/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module xil_defaultlib.dp
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.x_lut3_mux4_reduced_0
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT5
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.gcd_core
+Compiling module xil_defaultlib.gcd_core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gcd_core_tb_time_synth
