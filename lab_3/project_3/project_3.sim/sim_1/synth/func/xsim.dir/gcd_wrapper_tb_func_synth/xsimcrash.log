@@ -1,0 +1,88 @@
+Exception at PC 0x00007FFBE1E0A839
+Unable to capture context for thread 11480 in process 19248, can not generate back trace
+Unable to capture context for thread 4000 in process 19248, can not generate back trace
+Unable to capture context for thread 3272 in process 19248, can not generate back trace
+Unable to capture context for thread 76 in process 19248, can not generate back trace
+Unable to capture context for thread 27520 in process 19248, can not generate back trace
+Unable to capture context for thread 20016 in process 19248, can not generate back trace
+Exception at PC 0x00007FFB990BBB93
+Printing stacktrace...
+
+[0]  [0x00007FFB990BBB93]
+[1]  [0x00007FFB990BBB93]
+[2]  [0x00007FFB990BB4A1]
+[3]  [0x00007FFB990BB459]
+[4]  [0x00007FFB990A19FE]
+[5]  [0x00007FFB990A0ED1]
+[6]  [0x00007FFB990A0D76]
+[7]  [0x00007FFB990479F6]
+[8]  [0x00007FFB99037AFB]
+[9]  [0x00007FFB9915E90A]
+[10]  [0x00007FFB99179F87]
+[11]  [0x00007FFB9917A05F]
+[12]  [0x00007FFBE24C7BD4]
+[13]  [0x00007FFBE414CED1]
+Done
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839
+Exception at PC 0x00007FFBE1E0A839

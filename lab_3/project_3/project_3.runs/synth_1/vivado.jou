@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Feb 06 21:14:05 2020
+# Process ID: 37532
+# Current directory: C:/Users/carlo/Downloads/lab_3/project_3/project_3.runs/synth_1
+# Command line: vivado.exe -log gcd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd_wrapper.tcl
+# Log file: C:/Users/carlo/Downloads/lab_3/project_3/project_3.runs/synth_1/gcd_wrapper.vds
+# Journal file: C:/Users/carlo/Downloads/lab_3/project_3/project_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_wrapper.tcl -notrace
