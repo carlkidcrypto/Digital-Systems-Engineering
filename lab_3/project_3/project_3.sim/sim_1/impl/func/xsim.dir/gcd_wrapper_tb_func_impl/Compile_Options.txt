@@ -1,0 +1,1 @@
+-wto "4880e8d4561a4983b9934fde9972101d" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "secureip" --snapshot "gcd_wrapper_tb_func_impl" "xil_defaultlib.gcd_wrapper_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

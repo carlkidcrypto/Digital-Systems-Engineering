@@ -1,0 +1,50 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "gcd_wrapper")
+(DATE "Sun Feb 09 14:39:44 2020")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2016.4")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3327.9:3530.1:3530.1) (3327.9:3530.1:3530.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3335.8:3538.1:3538.1) (3335.8:3538.1:3538.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3282.7:3484.5:3484.5) (3282.7:3484.5:3484.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3306.9:3508.9:3508.9) (3306.9:3508.9:3508.9))
+    )
+  )
+)
+)

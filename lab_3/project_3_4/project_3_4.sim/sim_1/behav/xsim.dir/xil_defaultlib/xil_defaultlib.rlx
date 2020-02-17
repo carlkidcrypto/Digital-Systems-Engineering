@@ -1,0 +1,11 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sim_1/new/gcd_wrapper_tb.sv,1581481782,systemVerilog,,,,gcd_wrapper_tb,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sources_1/imports/lab_3/debounce.sv,1581131450,systemVerilog,,,,debounce,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sources_1/imports/lab_3/dp.sv,1581131450,systemVerilog,,,,dp,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sources_1/imports/lab_3/fsm.sv,1581314508,systemVerilog,,,,fsm,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sources_1/imports/lab_3/gcd_core.sv,1581131450,systemVerilog,,,,gcd_core,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_4/project_3_4.srcs/sources_1/new/gcd_wrapper.sv,1581402129,systemVerilog,,,,gcd_wrapper,,,,,,,,

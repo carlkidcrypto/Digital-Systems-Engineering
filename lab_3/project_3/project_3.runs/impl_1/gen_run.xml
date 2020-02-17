@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1581052443">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1581313949">
+  <File Type="PWROPT-DRC" Name="gcd_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="gcd_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="gcd_wrapper_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="gcd_wrapper_power_routed.rpx"/>
   <File Type="PA-TCL" Name="gcd_wrapper.tcl"/>
-  <File Type="INIT-TIMING" Name="gcd_wrapper_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="gcd_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="gcd_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="gcd_wrapper.hwdef"/>
   <File Type="RDI-RDI" Name="gcd_wrapper.vdi"/>
   <File Type="OPT-DCP" Name="gcd_wrapper_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="gcd_wrapper.hwdef"/>
   <File Type="OPT-DRC" Name="gcd_wrapper_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="gcd_wrapper_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="gcd_wrapper_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="gcd_wrapper_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="gcd_wrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="gcd_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="gcd_wrapper_drc_routed.rpx"/>
   <File Type="BG-BIN" Name="gcd_wrapper.bin"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="gcd_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="gcd_wrapper_drc_routed.rpx"/>
   <File Type="BG-DRC" Name="gcd_wrapper.drc"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="gcd_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="gcd_wrapper_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MSK" Name="gcd_wrapper.msk"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="gcd_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="gcd_wrapper_methodology_drc_routed.rpx"/>
   <File Type="BG-BGN" Name="gcd_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="gcd_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="gcd_wrapper_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="gcd_wrapper_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="gcd_wrapper_route_status.rpt"/>

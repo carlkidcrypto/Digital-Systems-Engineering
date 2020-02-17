@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Feb 16 18:51:26 2020
+# Process ID: 5136
+# Current directory: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/mem_synth_1
+# Command line: vivado.exe -log mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mem.tcl
+# Log file: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/mem_synth_1/mem.vds
+# Journal file: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mem.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mem, cache-ID = 5df08651177902d4.

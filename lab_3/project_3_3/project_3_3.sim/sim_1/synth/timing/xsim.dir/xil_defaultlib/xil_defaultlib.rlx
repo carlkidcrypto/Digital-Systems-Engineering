@@ -1,0 +1,10 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.sim/sim_1/synth/timing/gcd_wrapper_tb_time_synth.v,1581287984,verilog,,,,gcd_wrapper;glbl,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.srcs/sim_1/new/gcd_wrapper_tb.sv,1581287981,systemVerilog,,,,gcd_wrapper_tb,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.srcs/sources_1/imports/lab_3/debounce.sv,1581131449,systemVerilog,,,,debounce,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.srcs/sources_1/imports/lab_3/dp.sv,1581131449,systemVerilog,,,,dp,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.srcs/sources_1/imports/lab_3/fsm.sv,1581131449,systemVerilog,,,,fsm,,,,,,,,
+C:/Users/carlo/Downloads/lab_3/project_3_3/project_3_3.srcs/sources_1/imports/lab_3/gcd_core.sv,1581131450,systemVerilog,,,,gcd_core,,,,,,,,

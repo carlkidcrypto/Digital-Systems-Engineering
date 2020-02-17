@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 07 18:31:21 2020
+# Process ID: 5580
+# Current directory: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/synth_1
+# Command line: vivado.exe -log gcd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd_wrapper.tcl
+# Log file: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/synth_1/gcd_wrapper.vds
+# Journal file: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_wrapper.tcl -notrace

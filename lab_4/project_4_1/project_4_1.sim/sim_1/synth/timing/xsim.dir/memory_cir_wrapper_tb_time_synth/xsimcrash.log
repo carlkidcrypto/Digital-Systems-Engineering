@@ -1,0 +1,87 @@
+Unable to capture context for thread 15588 in process 15856, can not generate back trace
+Unable to capture context for thread 8112 in process 15856, can not generate back trace
+Unable to capture context for thread 10800 in process 15856, can not generate back trace
+Unable to capture context for thread 12500 in process 15856, can not generate back trace
+Unable to capture context for thread 14808 in process 15856, can not generate back trace
+Unable to capture context for thread 16004 in process 15856, can not generate back trace
+Exception at PC 0x00007FF8DE9ABB93
+Printing stacktrace...
+
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+[0]  [0x00007FF8DE9ABB93]
+[1]  [0x00007FF8DE9ABB93]
+[2]  [0x00007FF8DE9AB4A1]
+[3]  [0x00007FF8DE9AB459]
+[4]  [0x00007FF8DE9919FE]
+[5]  [0x00007FF8DE990ED1]
+[6]  [0x00007FF8DE990D76]
+[7]  [0x00007FF8DE9379F6]
+[8]  [0x00007FF8DE927AFB]
+[9]  [0x00007FF8DEA4E90A]
+[10]  [0x00007FF8DEA69F87]
+[11]  [0x00007FF8DEA6A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FF95BBC7BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FF95CBACED1]
+Done
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Unable to capture context for thread 15040 in process 15856, can not generate back trace
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839

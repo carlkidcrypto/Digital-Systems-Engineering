@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 07 18:38:01 2020
+# Process ID: 8516
+# Current directory: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/impl_1
+# Command line: vivado.exe -log gcd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gcd_wrapper.tcl -notrace
+# Log file: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/impl_1/gcd_wrapper.vdi
+# Journal file: C:/Users/port3116/Desktop/lab_3/project_3_1/project_3_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_wrapper.tcl -notrace

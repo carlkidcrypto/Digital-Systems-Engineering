@@ -1,0 +1,84 @@
+Unable to capture context for thread 2684 in process 9012, can not generate back trace
+Unable to capture context for thread 2200 in process 9012, can not generate back trace
+Unable to capture context for thread 15740 in process 9012, can not generate back trace
+Unable to capture context for thread 15076 in process 9012, can not generate back trace
+Exception at PC 0x00007FF8CD0FBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+[0]  [0x00007FF8CD0FBB93]
+[1]  [0x00007FF8CD0FBB93]
+[2]  [0x00007FF8CD0FB4A1]
+[3]  [0x00007FF8CD0FB459]
+[4]  [0x00007FF8CD0E19FE]
+[5]  [0x00007FF8CD0E0ED1]
+[6]  [0x00007FF8CD0E0D76]
+[7]  [0x00007FF8CD0879F6]
+[8]  [0x00007FF8CD077AFB]
+[9]  [0x00007FF8CD19E90A]
+[10]  [0x00007FF8CD1B9F87]
+[11]  [0x00007FF8CD1BA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FF95BBC7BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FF95CBACED1]
+Done
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Unable to capture context for thread 992 in process 9012, can not generate back trace
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839
+Exception at PC 0x00007FF95A92A839

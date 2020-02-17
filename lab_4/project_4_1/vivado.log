@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Feb 16 15:40:56 2020
+# Process ID: 2948
+# Current directory: C:/Users/carlo/Downloads/lab_4/project_4_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7704 C:\Users\carlo\Downloads\lab_4\project_4_1\project_4_1.xpr
+# Log file: C:/Users/carlo/Downloads/lab_4/project_4_1/vivado.log
+# Journal file: C:/Users/carlo/Downloads/lab_4/project_4_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv" into library work [C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv:1]
+[Sun Feb 16 15:41:22 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1/runme.log
+reset_run synth_1 -prev_step 
+add_files -norecurse {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v}}
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" into library work [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v:1]
+[Sun Feb 16 15:51:58 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Sun Feb 16 15:53:09 2020] Launched impl_1...
+Run output will be captured here: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/impl_1/runme.log
+add_files -fileset constrs_1 -norecurse {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/ZYBO_Master.xdc}}
+import_files -fileset constrs_1 {{C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/ZYBO_Master.xdc}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/carlo/Downloads/lab_4/memory_cir_wrapper_tb.sv
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'mem_cir_wrapper' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj mem_cir_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+WARNING: [VRFC 10-1195] overwriting previous definition of module mem [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v:17]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_cir_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 81cb9d459816466b831f9b6a93624255 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mem_cir_wrapper_behav xil_defaultlib.mem_cir_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" Line 17. Module mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" Line 17. Module mem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_cir_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mem_cir_wrapper_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/xsim.dir/mem_cir_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb 16 15:58:19 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mem_cir_wrapper_behav -key {Behavioral:sim_1:Functional:mem_cir_wrapper} -tclbatch {mem_cir_wrapper.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source mem_cir_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mem_cir_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 889.668 ; gain = 0.000
+set_property top memory_cir_wrapper_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem_cir_wrapper_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/xelab.pb
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'memory_cir_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj memory_cir_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sim_1/imports/lab_4/memory_cir_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cir_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 81cb9d459816466b831f9b6a93624255 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot memory_cir_wrapper_tb_behav xil_defaultlib.memory_cir_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <memory_cir_wrapper> not found while processing module instance <uut> [C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sim_1/imports/lab_4/memory_cir_wrapper_tb.sv:13]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem_cir_wrapper_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/xelab.pb
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'memory_cir_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj memory_cir_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sim_1/imports/lab_4/memory_cir_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cir_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 81cb9d459816466b831f9b6a93624255 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot memory_cir_wrapper_tb_behav xil_defaultlib.memory_cir_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-858] illegal recursive design instantiation, instance name uut [C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sim_1/imports/lab_4/memory_cir_wrapper_tb.sv:13]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1
+
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv" into library work [C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv:1]
+[Sun Feb 16 16:00:23 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1/runme.log
+set_property top mem_cir_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'mem_cir_wrapper' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj mem_cir_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+WARNING: [VRFC 10-1195] overwriting previous definition of module mem [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v:17]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_cir_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 81cb9d459816466b831f9b6a93624255 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mem_cir_wrapper_behav xil_defaultlib.mem_cir_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" Line 17. Module mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4_1/project_4_1.srcs/sources_1/ip/mem/mem_stub.v" Line 17. Module mem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_cir_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mem_cir_wrapper_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav/xsim.dir/mem_cir_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb 16 16:01:45 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mem_cir_wrapper_behav -key {Behavioral:sim_1:Functional:mem_cir_wrapper} -tclbatch {mem_cir_wrapper.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source mem_cir_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mem_cir_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 914.402 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1
+
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv" into library work [C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.srcs/sources_1/new/mem_cir_wrapper.sv:1]
+[Sun Feb 16 16:03:07 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/lab_4/project_4_1/project_4_1.runs/synth_1/runme.log
+report_ip_status
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun Feb 16 16:10:47 2020
+| Host         : DESKTOP-4INRPJ4 running 64-bit major release  (build 9200)
+| Command      : report_ip_status
+------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 1 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++---------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name | Status     | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|               |            |                     | Log       |                    | Version |               | License    |                      |
++---------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| mem           | Up-to-date | No changes required |  *(1)     | Distributed Memory | 8.0     | 8.0 (Rev. 11) | Included   | xc7z010clg400-1      |
+|               |            |                     |           | Generator          | (Rev.   |               |            |                      |
+|               |            |                     |           |                    | 11)     |               |            |                      |
++---------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/dist_mem_gen_v8_0/doc/dist_mem_gen_v8_0_changelog.txt
+
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 16 16:13:26 2020...

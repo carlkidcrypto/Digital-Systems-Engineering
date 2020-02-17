@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 14 14:57:36 2020
+# Process ID: 8928
+# Current directory: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11760 C:\Users\carlo\OneDrive - University of Idaho\UofI_19-20\Spring_2020\ECE_440\lab_4\project_4\project_4.xpr
+# Log file: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/vivado.log
+# Journal file: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4'
+INFO: [Project 1-313] Project file moved from 'C:/Users/port3116/Desktop/lab_4/project_4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 790.688 ; gain = 104.953
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Process appears to be on host 'ECE-BEL215-15' and cannot be killed from host 'DESKTOP-4INRPJ4'
+
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.srcs/sources_1/new/memory_cir.sv" into library work [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.srcs/sources_1/new/memory_cir.sv:1]
+[Fri Feb 14 15:00:13 2020] Launched my_test_mem_dist_mem_gen_0_0_synth_1...
+Run output will be captured here: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.runs/my_test_mem_dist_mem_gen_0_0_synth_1/runme.log
+[Fri Feb 14 15:00:13 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.runs/synth_1/runme.log
+reset_run synth_1
+reset_run my_test_mem_dist_mem_gen_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Process appears to be on host 'ECE-BEL215-15' and cannot be killed from host 'DESKTOP-4INRPJ4'
+
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.srcs/sources_1/new/memory_cir.sv" into library work [C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.srcs/sources_1/new/memory_cir.sv:1]
+[Fri Feb 14 15:02:43 2020] Launched my_test_mem_dist_mem_gen_0_0_synth_1...
+Run output will be captured here: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.runs/my_test_mem_dist_mem_gen_0_0_synth_1/runme.log
+[Fri Feb 14 15:02:43 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_4/project_4/project_4.runs/synth_1/runme.log
+reset_run synth_1
+reset_run my_test_mem_dist_mem_gen_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 14 15:08:39 2020...

@@ -49,14 +49,15 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param general.maxThreads 8
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/carlo/Downloads/lab_3/project_3/project_3.cache/wt [current_project]
-  set_property parent.project_path C:/Users/carlo/Downloads/lab_3/project_3/project_3.xpr [current_project]
-  set_property ip_output_repo C:/Users/carlo/Downloads/lab_3/project_3/project_3.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/port3116/Desktop/lab_3/project_3/project_3.cache/wt [current_project]
+  set_property parent.project_path C:/Users/port3116/Desktop/lab_3/project_3/project_3.xpr [current_project]
+  set_property ip_output_repo C:/Users/port3116/Desktop/lab_3/project_3/project_3.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/carlo/Downloads/lab_3/project_3/project_3.runs/synth_1/gcd_wrapper.dcp
-  read_xdc C:/Users/carlo/Downloads/lab_3/project_3/project_3.srcs/constrs_1/imports/lab_3/ZYBO_Master.xdc
+  add_files -quiet C:/Users/port3116/Desktop/lab_3/project_3/project_3.runs/synth_1/gcd_wrapper.dcp
+  read_xdc C:/Users/port3116/Desktop/lab_3/project_3/project_3.srcs/constrs_1/imports/lab_3/ZYBO_Master.xdc
   link_design -top gcd_wrapper -part xc7z010clg400-1
   write_hwdef -file gcd_wrapper.hwdef
   close_msg_db -file init_design.pb
@@ -126,6 +127,24 @@ if {$rc} {
   return -code error $RESULT
 } else {
   end_step route_design
+  unset ACTIVE_STEP 
+}
+
+start_step write_bitstream
+set ACTIVE_STEP write_bitstream
+set rc [catch {
+  create_msg_db write_bitstream.pb
+  catch { write_mem_info -force gcd_wrapper.mmi }
+  write_bitstream -force -no_partial_bitfile gcd_wrapper.bit 
+  catch { write_sysdef -hwdef gcd_wrapper.hwdef -bitfile gcd_wrapper.bit -meminfo gcd_wrapper.mmi -file gcd_wrapper.sysdef }
+  catch {write_debug_probes -quiet -force debug_nets}
+  close_msg_db -file write_bitstream.pb
+} RESULT]
+if {$rc} {
+  step_failed write_bitstream
+  return -code error $RESULT
+} else {
+  end_step write_bitstream
   unset ACTIVE_STEP 
 }
 
