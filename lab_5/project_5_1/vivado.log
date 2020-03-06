@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 25 21:12:01 2020
+# Process ID: 3420
+# Current directory: C:/Users/carlo/Downloads/project_5_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13776 C:\Users\carlo\Downloads\project_5_1\project_5_1.xpr
+# Log file: C:/Users/carlo/Downloads/project_5_1/vivado.log
+# Journal file: C:/Users/carlo/Downloads/project_5_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carlo/Downloads/project_5_1/project_5_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 811.684 ; gain = 146.074
+import_files -norecurse {C:/Users/carlo/Downloads/project_5_1/gcd_core.sv C:/Users/carlo/Downloads/project_5_1/fsm.sv C:/Users/carlo/Downloads/project_5_1/dp.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run mem_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:42:06 2020] Launched mem_synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/mem_synth_1/runme.log
+[Tue Feb 25 21:42:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:44:42 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:50:44 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:53:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:54:22 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'BMEM_GCD_SPI_Wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BMEM_GCD_SPI_Wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/dp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/gcd_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcd_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto ee93b5bbbbde42648259f998ff9d478e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot BMEM_GCD_SPI_Wrapper_tb_behav xil_defaultlib.BMEM_GCD_SPI_Wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-91] btn is not declared [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv:19]
+ERROR: [VRFC 10-2063] Module <gcd_core> not found while processing module instance <gcd_core1> [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]
+ERROR: [VRFC 10-2063] Module <mem> not found while processing module instance <mem1> [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:35]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'BMEM_GCD_SPI_Wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BMEM_GCD_SPI_Wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/dp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/gcd_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcd_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto ee93b5bbbbde42648259f998ff9d478e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot BMEM_GCD_SPI_Wrapper_tb_behav xil_defaultlib.BMEM_GCD_SPI_Wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable done might have multiple concurrent drivers [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:104]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'BMEM_GCD_SPI_Wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BMEM_GCD_SPI_Wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/dp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/gcd_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcd_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper
+INFO: [VRFC 10-2458] undeclared symbol s, assumed default net type wire [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]
+ERROR: [VRFC 10-1412] syntax error near .* [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]
+ERROR: [VRFC 10-1040] module BMEM_GCD_SPI_Wrapper ignored due to previous errors [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ".*". [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]
+[Tue Feb 25 21:56:29 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library work [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:1]
+[Tue Feb 25 21:57:15 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'BMEM_GCD_SPI_Wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BMEM_GCD_SPI_Wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/dp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/ip/mem/sim/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/gcd_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcd_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto ee93b5bbbbde42648259f998ff9d478e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot BMEM_GCD_SPI_Wrapper_tb_behav xil_defaultlib.BMEM_GCD_SPI_Wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dp
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.gcd_core
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.BMEM_GCD_SPI_Wrapper
+Compiling module xil_defaultlib.BMEM_GCD_SPI_Wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BMEM_GCD_SPI_Wrapper_tb_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xsim.dir/BMEM_GCD_SPI_Wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Feb 25 21:58:24 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 896.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BMEM_GCD_SPI_Wrapper_tb_behav -key {Behavioral:sim_1:Functional:BMEM_GCD_SPI_Wrapper_tb} -tclbatch {BMEM_GCD_SPI_Wrapper_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

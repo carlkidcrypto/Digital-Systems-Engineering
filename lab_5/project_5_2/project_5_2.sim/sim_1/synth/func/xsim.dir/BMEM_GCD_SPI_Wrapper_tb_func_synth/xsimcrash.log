@@ -1,0 +1,89 @@
+Unable to capture context for thread 3344 in process 2052, can not generate back trace
+Unable to capture context for thread 3944 in process 2052, can not generate back trace
+Unable to capture context for thread 1792 in process 2052, can not generate back trace
+Unable to capture context for thread 7956 in process 2052, can not generate back trace
+Unable to capture context for thread 976 in process 2052, can not generate back trace
+Exception at PC 0x00007FFBFF0FBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+[0]  [0x00007FFBFF0FBB93]
+[1]  [0x00007FFBFF0FBB93]
+[2]  [0x00007FFBFF0FB4A1]
+[3]  [0x00007FFBFF0FB459]
+[4]  [0x00007FFBFF0E19FE]
+[5]  [0x00007FFBFF0E0ED1]
+[6]  [0x00007FFBFF0E0D76]
+[7]  [0x00007FFBFF0879F6]
+[8]  [0x00007FFBFF077AFB]
+[9]  [0x00007FFBFF19E90A]
+[10]  [0x00007FFBFF1B9F87]
+[11]  [0x00007FFBFF1BA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFC6EE57BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFC7036CED1]
+Done
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Unable to capture context for thread 12528 in process 2052, can not generate back trace
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839
+Exception at PC 0x00007FFC6E0BA839

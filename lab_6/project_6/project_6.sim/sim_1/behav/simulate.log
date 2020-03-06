@@ -1,0 +1,4 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 8150 ns : File "C:/Users/carlo/Downloads/lab_4/project_4_2/project_4_2.srcs/sim_1/imports/lab_4/memory_cir_wrapper_tb.sv" Line 42

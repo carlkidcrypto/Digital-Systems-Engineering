@@ -1,0 +1,20 @@
+; mem file coe
+memory_initialization_radix = 16; 
+memory_initialization_vector = 
+9b 
+a7 
+f8 
+a3 
+40 
+d3 
+da 
+a7 
+1b 
+86 
+39 
+e2 
+f8 
+a8 
+ac 
+7b
+00;

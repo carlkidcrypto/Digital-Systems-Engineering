@@ -1,0 +1,6 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/carlo/Downloads/project_5_2/project_5_2.sim/sim_1/synth/timing/BMEM_GCD_SPI_Wrapper_tb_time_synth.v,1582699987,verilog,,,,BMEM_GCD_SPI_Wrapper;RAM32X1S_HD1;RAM32X1S_HD2;RAM32X1S_HD3;RAM32X1S_HD4;RAM32X1S_HD5;RAM32X1S_HD6;RAM32X1S_HD7;RAM32X1S_UNIQ_BASE_;dp;fsm;gcd_core;glbl;mem;mem_dist_mem_gen_v8_0_11;mem_dist_mem_gen_v8_0_11_synth;mem_spram,,,,,,,,
+C:/Users/carlo/Downloads/project_5_2/project_5_2.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv,1582697758,systemVerilog,,,,BMEM_GCD_SPI_Wrapper_tb,,,,,,,,

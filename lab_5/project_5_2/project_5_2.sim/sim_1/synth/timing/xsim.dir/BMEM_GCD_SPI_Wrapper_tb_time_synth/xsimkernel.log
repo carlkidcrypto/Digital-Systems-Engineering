@@ -1,0 +1,7 @@
+Running: xsim.dir/BMEM_GCD_SPI_Wrapper_tb_time_synth/xsimk.exe -simmode gui -wdb BMEM_GCD_SPI_Wrapper_tb_time_synth.wdb -simrunnum 0 -socket 54386
+Design successfully loaded
+Design Loading Memory Usage: 14352 KB (Peak: 14352 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 16200 KB (Peak: 16200 KB)
+Simulation CPU Usage: 156 ms

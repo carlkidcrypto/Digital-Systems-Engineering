@@ -1,0 +1,1 @@
+-wto "ee93b5bbbbde42648259f998ff9d478e" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "dist_mem_gen_v8_0_11" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "BMEM_GCD_SPI_Wrapper_tb_behav" "xil_defaultlib.BMEM_GCD_SPI_Wrapper_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

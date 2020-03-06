@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Mar 06 10:36:51 2020
+# Process ID: 11152
+# Current directory: C:/Users/port3116/Desktop/lab_6/project_6/project_6.runs/impl_1
+# Command line: vivado.exe -log mem_cir_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mem_cir_wrapper.tcl -notrace
+# Log file: C:/Users/port3116/Desktop/lab_6/project_6/project_6.runs/impl_1/mem_cir_wrapper.vdi
+# Journal file: C:/Users/port3116/Desktop/lab_6/project_6/project_6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mem_cir_wrapper.tcl -notrace

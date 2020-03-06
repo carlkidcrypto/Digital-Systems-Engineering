@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_5_2/project_5_2.sim/sim_1/synth/func/BMEM_GCD_SPI_Wrapper_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper
+INFO: [VRFC 10-311] analyzing module dp
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-311] analyzing module gcd_core
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-311] analyzing module mem_dist_mem_gen_v8_0_11
+INFO: [VRFC 10-311] analyzing module mem_dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-311] analyzing module mem_spram
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_5_2/project_5_2.srcs/sim_1/imports/project_5/BMEM_GCD_SPI_Wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BMEM_GCD_SPI_Wrapper_tb

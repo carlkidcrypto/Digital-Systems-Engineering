@@ -1,0 +1,1114 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 3420
+
+Current time: 	2/25/20 9:12:18 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 3
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	carlo
+User home directory: C:/Users/carlo
+User working directory: C:/Users/carlo/Downloads/project_5_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 533 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+57934kb) [00:00:04]
+// [Engine Memory]: 384 MB (+251542kb) [00:00:04]
+// Opening Vivado Project: C:\Users\carlo\Downloads\project_5_1\project_5_1.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/carlo/Downloads/project_5_1/project_5_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 69 MB (+9243kb) [00:00:07]
+// [Engine Memory]: 470 MB (+69746kb) [00:00:07]
+// [Engine Memory]: 523 MB (+30856kb) [00:00:08]
+// Tcl Message: open_project C:/Users/carlo/Downloads/project_5_1/project_5_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 538 MB. GUI used memory: 33 MB. Current time: 2/25/20 9:12:19 PM PST
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 811.684 ; gain = 146.074 
+// Project name: project_5_1; location: C:/Users/carlo/Downloads/project_5_1; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 549 MB (+169kb) [00:00:47]
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 570 MB. GUI used memory: 39 MB. Current time: 2/25/20 9:14:12 PM PST
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, b:g)
+// [Engine Memory]: 581 MB (+3867kb) [00:02:12]
+selectButton(RDIResource.HJFileChooserHelpers_JUMP_TO_HOME_DIRECTORY, (String) null); // a:JButton (JToolBar:JComponent, JDialog:Dialog)
+// Elapsed time: 10 seconds
+String[] filenames31467 = {"C:/Users/carlo/Downloads/project_5_1/dp.sv", "C:/Users/carlo/Downloads/project_5_1/fsm.sv", "C:/Users/carlo/Downloads/project_5_1/gcd_core.sv"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 21 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {C:/Users/carlo/Downloads/project_5_1/gcd_core.sv C:/Users/carlo/Downloads/project_5_1/fsm.sv C:/Users/carlo/Downloads/project_5_1/dp.sv} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 144, 363); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 198, 322); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 134, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_core (gcd_core.sv)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_core (gcd_core.sv)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gcd_core (gcd_core.sv)]", 3, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 37, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 36, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 75 MB (+2079kb) [00:03:30]
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gcd_core.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv)]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv)]", 1); // y:i (D:JPanel, cd:JFrame)
+// [GUI Memory]: 80 MB (+1045kb) [00:04:02]
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 213, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gcd_core.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 84 MB (+770kb) [00:07:50]
+// Elapsed time: 455 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 45, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 604 MB. GUI used memory: 48 MB. Current time: 2/25/20 9:24:12 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 78 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 267, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 299, 290); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 283, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 89, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 162, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 90 MB (+1272kb) [00:13:39]
+// Elapsed time: 33 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 141, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 466, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 478, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 481, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 470, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 90, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 56, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 83, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 223, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 46 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 159, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 227, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 188, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 613 MB (+3674kb) [00:16:23]
+// Elapsed time: 31 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 428, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 68 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 221, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 153, 287); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 MB (+1407kb) [00:18:06]
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 162, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 603, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 595, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 603, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 160, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 579, 357); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 581, 358); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 235, 290); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 268, 99); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 258, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 174, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 278, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 203, 322); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 208, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 172, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 278, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 306, 295); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 178, 357); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 334, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 173, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 263, 411); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 180, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 180, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 195, 473); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 77 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 83, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 515, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 85, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 291, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 338, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 369, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 389, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 413, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 412, 399, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 558, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 563, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 74, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 330, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 101 MB (+671kb) [00:22:39]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 205, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 336, 322); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 335, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 196, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 259, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 346, 341); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 123, 504); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 48 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 175, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 34 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 184, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 180, 449); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 57, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 125, 468); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 169, 493); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 56, 286); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 107 MB (+560kb) [00:25:23]
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 179, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 58, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 208, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 143, 325); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 24, 287); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 114, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 112, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 151, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 150, 439); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 139, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 143, 479); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 143, 487); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 233, 426); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 241, 410); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 196, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 193, 526); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 105, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 342, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 86 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 158, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 180, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 113 MB (+999kb) [00:28:52]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 157, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 360, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 261, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 158, 474); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// y:aO (cd:JFrame): Out-of-Context module run(s) is/are Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Out-of-Context module run(s) is/are Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run mem_synth_1 
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Feb 25 21:42:06 2020] Launched mem_synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/mem_synth_1/runme.log [Tue Feb 25 21:42:06 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 70 MB. Current time: 2/25/20 9:42:07 PM PST
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab((HResource) null, (String) null, (HResource) null, "Messages", 1, false, true); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame) - Double Click
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 659 MB (+16307kb) [00:30:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 78 MB. Current time: 2/25/20 9:42:47 PM PST
+// Elapsed time: 24 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv), gcd_core1 - gcd_core (gcd_core.sv)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BMEM_GCD_SPI_Wrapper (BMEM_GCD_SPI_Wrapper.sv), gcd_core1 - gcd_core (gcd_core.sv)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("gcd_core.sv", 113, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("gcd_core.sv", 136, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("gcd_core.sv", 140, 248, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("gcd_core.sv", 148, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("gcd_core.sv", 139, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gcd_core.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-87] always_comb on 'counter_up_reg' did not result in combinational logic [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:113]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;113;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 140, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3848] Net din in module/entity BMEM_GCD_SPI_Wrapper does not have driver. [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:28]. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 420, 137); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 171, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 431, 266); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3295] tying undriven pin gcd_core1:din[7] to constant 0 [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 4, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Project 1-486] Could not resolve non-primitive black box cell 'mem' instantiated as 'mem1' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:35]. ]", 5, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;35;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// [GUI Memory]: 120 MB (+1317kb) [00:32:12]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-327] inferring latch for variable 'counter_up_reg' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:113]. ]", 6, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;113;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 139, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:44:42 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 164, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 99 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 130, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 141, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 129 MB (+2916kb) [00:34:42]
+// Elapsed time: 11 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 57, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 53, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 186, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 167, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 186, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 141, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 221, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 73, 310); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5559] multi-driven net out0 is connected to constant driver, other driver is ignored [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\imports\project_5_1\fsm.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gcd_core.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 307, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5559] multi-driven net out0 is connected to constant driver, other driver is ignored [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\imports\project_5_1\fsm.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 692 MB. GUI used memory: 80 MB. Current time: 2/25/20 9:48:47 PM PST
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 216, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 225, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 194, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 268, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 199, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 240, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 231, 115); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 281, 167); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 198, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 169, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 225, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 140, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 305, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 196, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 249, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:50:44 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 227, 286); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 57 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 3, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\imports\project_5_1\fsm.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 3); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 3); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 3); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 3); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5559] multi-driven net out0 is connected to constant driver, other driver is ignored [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\imports\project_5_1\fsm.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 202, 132); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 166, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 176, 175); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 110, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 127, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 110, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 363, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 219, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 196, 164); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 135 MB (+70kb) [00:41:03]
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 140, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 179, 204); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "BMEM_GCD_SPI_Wrapper.sv", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 128, 149); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 9, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:53:28 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 232, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 236, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 247, 110); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 227, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-87] always_comb on 'rst_reg' did not result in combinational logic [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 208, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:54:22 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 173, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 34 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-327] inferring latch for variable 'rst_reg' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net out0 with 1st driver pin 'i_0/out0' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/imports/project_5_1/fsm.sv:28]. ]", 5, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\imports\project_5_1\fsm.sv;-;;-;16;-;line;-;28;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fsm.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// a:a (cd:JFrame): Critical Messages: addNotify
+// 'd' command handler elapsed time: 5 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, BMEM_GCD_SPI_Wrapper_tb (BMEM_GCD_SPI_Wrapper_tb.sv)]", 10, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, BMEM_GCD_SPI_Wrapper_tb (BMEM_GCD_SPI_Wrapper_tb.sv)]", 10, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, BMEM_GCD_SPI_Wrapper_tb (BMEM_GCD_SPI_Wrapper_tb.sv)]", 10, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("BMEM_GCD_SPI_Wrapper_tb.sv", 125, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper_tb.sv", 59, 491); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper_tb.sv", 53, 554); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper_tb.sv", 55, 567); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// a:a (cd:JFrame): Critical Messages: addNotify
+// 'd' command handler elapsed time: 3 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 13); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-1546] variable done might have multiple concurrent drivers [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:104]. ]", 14, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;104;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 212, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// a:a (cd:JFrame): Critical Messages: addNotify
+// 'd' command handler elapsed time: 3 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:56:29 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near .*. [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 6, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 169, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("BMEM_GCD_SPI_Wrapper.sv", 174, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Feb 25 21:57:15 2020] Launched synth_1... Run output will be captured here: C:/Users/carlo/Downloads/project_5_1/project_5_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 48 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-327] inferring latch for variable 'rst_reg' [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-87] always_comb on 'rst_reg' did not result in combinational logic [C:/Users/carlo/Downloads/project_5_1/project_5_1.srcs/sources_1/new/BMEM_GCD_SPI_Wrapper.sv:30]. ]", 6, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\carlo\Downloads\project_5_1\project_5_1.srcs\sources_1\new\BMEM_GCD_SPI_Wrapper.sv;-;;-;16;-;line;-;30;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot BMEM_GCD_SPI_Wrapper_tb_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2016.4 (64-bit)   **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017   **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav/xsim.dir/BMEM_GCD_SPI_Wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Tue Feb 25 21:58:24 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 896.168 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/carlo/Downloads/project_5_1/project_5_1.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "BMEM_GCD_SPI_Wrapper_tb_behav -key {Behavioral:sim_1:Functional:BMEM_GCD_SPI_Wrapper_tb} -tclbatch {BMEM_GCD_SPI_Wrapper_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.4 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 71 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:bt)
+// 'd' command handler elapsed time: 71 seconds
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton:JButton (NullPanel:JPanel, cd:JFrame)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
