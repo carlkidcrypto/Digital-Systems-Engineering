@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 06 14:54:41 2020
+# Process ID: 2072
+# Current directory: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10592
+# Log file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carlo/Downloads/project_9/led_controller/led_controller.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/carlo/Downloads/project_9/ip_repo/led_controller_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 863.172 ; gain = 189.074
+archive_project {C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_9/port3116-440-p9.xpr.zip} -temp_dir C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2072-DESKTOP-4INRPJ4 -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2072-DESKTOP-4INRPJ4' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/carlo/Downloads/project_9/ip_repo/led_controller_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2072-DESKTOP-4INRPJ4/PrjAr/_X_'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'led_test_system_processing_system7_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_processing_system7_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'led_test_system_rst_ps7_0_50M_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_rst_ps7_0_50M_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'led_test_system_led_controller_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_led_controller_0_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_rst_ps7_0_50M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'led_test_system_led_controller_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'led_test_system_led_controller_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'led_test_system_led_controller_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'led_test_system_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'led_test_system_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'led_test_system_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'led_test_system_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

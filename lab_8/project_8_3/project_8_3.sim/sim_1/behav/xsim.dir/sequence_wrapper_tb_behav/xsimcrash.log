@@ -1,0 +1,92 @@
+Unable to capture context for thread 8448 in process 9908, can not generate back trace
+Unable to capture context for thread 15912 in process 9908, can not generate back trace
+Unable to capture context for thread 13500 in process 9908, can not generate back trace
+Unable to capture context for thread 15408 in process 9908, can not generate back trace
+Unable to capture context for thread 7584 in process 9908, can not generate back trace
+Unable to capture context for thread 2524 in process 9908, can not generate back trace
+Unable to capture context for thread 4516 in process 9908, can not generate back trace
+Unable to capture context for thread 1360 in process 9908, can not generate back trace
+Exception at PC 0x00007FFCD057BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+[0]  [0x00007FFCD057BB93]
+[1]  [0x00007FFCD057BB93]
+[2]  [0x00007FFCD057B4A1]
+[3]  [0x00007FFCD057B459]
+[4]  [0x00007FFCD05619FE]
+[5]  [0x00007FFCD0560ED1]
+[6]  [0x00007FFCD0560D76]
+[7]  [0x00007FFCD05079F6]
+[8]  [0x00007FFCD04F7AFB]
+[9]  [0x00007FFCD061E90A]
+[10]  [0x00007FFCD0639F87]
+[11]  [0x00007FFCD063A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFD5F777BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFD5FC2CED1]
+Done
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Unable to capture context for thread 1580 in process 9908, can not generate back trace
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859
+Exception at PC 0x00007FFD5D07A859

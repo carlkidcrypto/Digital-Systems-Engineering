@@ -1,0 +1,735 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Mar 29 21:12:59 2020
+# Process ID: 8504
+# Current directory: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4056
+# Log file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carlo/Downloads/project_8_2/project_8_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+INFO: [Common 17-344] 'open_project' was cancelled
+open_project C:/Users/carlo/Downloads/project_8_3/project_8_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 823.328 ; gain = 119.555
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library work [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv:1]
+[Sun Mar 29 21:20:58 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_8_3/project_8_3.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/xsim.dir/sequence_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 29 21:22:04 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sequence_wrapper_tb_behav -key {Behavioral:sim_1:Functional:sequence_wrapper_tb} -tclbatch {sequence_wrapper_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source sequence_wrapper_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ms
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 250250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sequence_wrapper_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ms
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 848.441 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 864.203 ; gain = 0.000
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 250250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 864.203 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 250250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 865.504 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 250250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 865.504 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1000250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 870.922 ; gain = 0.000
+update_compile_order -fileset sources_1
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1000250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.652 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-624] enum member Fin has value that is outside the representable range of the enum [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv:39]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library work [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv:1]
+[Sun Mar 29 21:44:36 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_8_3/project_8_3.runs/synth_1/runme.log
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1000250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1000250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 878.652 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-624] enum member Fin has value that is outside the representable range of the enum [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv:39]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library work [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv:1]
+[Sun Mar 29 21:50:52 2020] Launched synth_1...
+Run output will be captured here: C:/Users/carlo/Downloads/project_8_3/project_8_3.runs/synth_1/runme.log
+relaunch_sim
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2016.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+INFO: [USF-XSim-37] Inspecting design source files for 'sequence_wrapper_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/codon.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/gene.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj sequence_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/gene_mem/sim/gene_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gene_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/sim/codon_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/mem_addr_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_addr_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codon_gene_grabber_wrapper
+INFO: [VRFC 10-2458] undeclared symbol stop_mem, assumed default net type wire [C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/imports/new/codon_gene_grabber_wrapper.sv:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sources_1/new/sequence_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sequence_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/carlo/Downloads/project_8_3/project_8_3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 255f6ae634f54585b2bd2ceaab6823bf --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1000250 ns : File "C:/Users/carlo/Downloads/project_8_3/project_8_3.srcs/sim_1/new/sequence_wrapper_tb.sv" Line 33
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 901.090 ; gain = 0.000
+archive_project C:/Users/carlo/Downloads/project_8_3.xpr.zip -temp_dir C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8504-DESKTOP-4INRPJ4 -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8504-DESKTOP-4INRPJ4' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8504-DESKTOP-4INRPJ4/PrjAr/_X_'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'codon_mem_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'codon_mem_synth_1'...
+WARNING: [Coretcl 2-105] Run 'gene_mem_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'gene_mem_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'codon_mem_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'gene_mem_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'codon_mem'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'codon_mem'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'gene_mem'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'gene_mem'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

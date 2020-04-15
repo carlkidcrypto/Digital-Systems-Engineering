@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "fact_co_processor_wrapper_tb_func_synth.v"
+sv xil_defaultlib  "../../../../project_10_3.srcs/sim_1/new/fact_co_processor_wrapper_tb.sv"
+
+# Do not sort compile order
+nosort

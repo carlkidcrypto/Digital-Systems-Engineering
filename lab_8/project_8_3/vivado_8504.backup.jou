@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Mar 29 21:12:59 2020
+# Process ID: 8504
+# Current directory: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4056
+# Log file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/carlo/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carlo/Downloads/project_8_2/project_8_2.xpr
+open_project C:/Users/carlo/Downloads/project_8_3/project_8_3.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source sequence_wrapper_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+archive_project C:/Users/carlo/Downloads/project_8_3.xpr.zip -temp_dir C:/Users/carlo/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8504-DESKTOP-4INRPJ4 -force -exclude_run_results -include_config_settings

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 30 20:38:12 2020
+# Process ID: 21256
+# Current directory: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_8/port3116-440-p8-attempt2/project_8_3/project_8_3.runs/synth_1
+# Command line: vivado.exe -log sequence_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sequence_wrapper.tcl
+# Log file: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_8/port3116-440-p8-attempt2/project_8_3/project_8_3.runs/synth_1/sequence_wrapper.vds
+# Journal file: C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_8/port3116-440-p8-attempt2/project_8_3/project_8_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sequence_wrapper.tcl -notrace
+WARNING: [Labtools 27-1428] Failed writing XML file 'C:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_8/port3116-440-p8-attempt2/project_8_3/project_8_3.runs/synth_1/.Xil/Vivado-21256-DESKTOP-4INRPJ4/.lpr'
+Resolution: Check the file and directory permissions to ensure the file can be written to the specified path.
+WARNING: [Vivado 12-818] No files matched 'c:/Users/carlo/OneDrive - University of Idaho/UofI_19-20/Spring_2020/ECE_440/lab_8/port3116-440-p8-attempt2/project_8_3/project_8_3.srcs/sources_1/ip/codon_mem/codon_mem.dcp'
+ERROR: [Common 17-55] 'set_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 30 20:38:20 2020...

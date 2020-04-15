@@ -1,0 +1,19 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 20f492a2bd93491bb0a83cc858866f5d --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sequence_wrapper_tb_behav xil_defaultlib.sequence_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.codon_mem
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module xil_defaultlib.gene_mem
+Compiling module xil_defaultlib.mem_addr_wrapper
+Compiling module xil_defaultlib.codon_gene_grabber_wrapper
+Compiling module xil_defaultlib.sequence_wrapper
+Compiling module xil_defaultlib.sequence_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sequence_wrapper_tb_behav
