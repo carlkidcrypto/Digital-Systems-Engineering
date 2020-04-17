@@ -18,13 +18,15 @@ module pulse_sync(
     output logic ps_out // synced output signal
     );
     
-    // internal 2-FF sync
-    logic [1:0] FF_sync;
+    // internal 3-FF sync
+    logic [2:0] FF_sync;
     
     always_ff@(posedge ps_clk)
     begin
         FF_sync[0] <= ps_in;
         FF_sync[1] <= FF_sync[0];
-        ps_out <= FF_sync[1];
+        FF_sync[2] <= FF_sync[1];
+        // 3rd FF xor with 2nd FF
+        ps_out <=  FF_sync[2] ^  FF_sync[1];
     end    
 endmodule: pulse_sync

@@ -1,71 +1,73 @@
-Unable to capture context for thread 10212 in process 1836, can not generate back trace
-Unable to capture context for thread 16400 in process 1836, can not generate back trace
-Unable to capture context for thread 9916 in process 1836, can not generate back trace
-Unable to capture context for thread 18088 in process 1836, can not generate back trace
-Exception at PC 0x00007FFD5E9EBB93
+Unable to capture context for thread 16348 in process 13712, can not generate back trace
+Unable to capture context for thread 17264 in process 13712, can not generate back trace
+Unable to capture context for thread 4008 in process 13712, can not generate back trace
+Unable to capture context for thread 10792 in process 13712, can not generate back trace
+Unable to capture context for thread 13496 in process 13712, can not generate back trace
+Unable to capture context for thread 13688 in process 13712, can not generate back trace
+Exception at PC 0x00007FF89B8ABB93
 Printing stacktrace...
 
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-[0]  [0x00007FFD5E9EBB93]
-[1]  [0x00007FFD5E9EBB93]
-[2]  [0x00007FFD5E9EB4A1]
-[3]  [0x00007FFD5E9EB459]
-[4]  [0x00007FFD5E9D19FE]
-[5]  [0x00007FFD5E9D0ED1]
-[6]  [0x00007FFD5E9D0D76]
-[7]  [0x00007FFD5E9779F6]
-[8]  [0x00007FFD5E967AFB]
-[9]  [0x00007FFD5EA8E90A]
-[10]  [0x00007FFD5EAA9F87]
-[11]  [0x00007FFD5EAAA05F]
-[12] (BaseThreadInitThunk+0x14) [0x00007FFDF8BE7BD4]
-[13] (RtlUserThreadStart+0x21) [0x00007FFDF8F8CED1]
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+[0]  [0x00007FF89B8ABB93]
+[1]  [0x00007FF89B8ABB93]
+[2]  [0x00007FF89B8AB4A1]
+[3]  [0x00007FF89B8AB459]
+[4]  [0x00007FF89B8919FE]
+[5]  [0x00007FF89B890ED1]
+[6]  [0x00007FF89B890D76]
+[7]  [0x00007FF89B8379F6]
+[8]  [0x00007FF89B827AFB]
+[9]  [0x00007FF89B94E90A]
+[10]  [0x00007FF89B969F87]
+[11]  [0x00007FF89B96A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FF8D91C7BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FF8DAE8CE51]
 Done
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Unable to capture context for thread 16112 in process 1836, can not generate back trace
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
-Exception at PC 0x00007FFDF5EEA859
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Unable to capture context for thread 2996 in process 13712, can not generate back trace
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799
+Exception at PC 0x00007FF8D7DEA799

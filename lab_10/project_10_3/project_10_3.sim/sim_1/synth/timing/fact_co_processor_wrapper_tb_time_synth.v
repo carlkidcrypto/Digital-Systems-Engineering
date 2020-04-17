@@ -1,7 +1,7 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-// Date        : Tue Apr 14 16:22:54 2020
+// Date        : Thu Apr 16 20:05:19 2020
 // Host        : DESKTOP-4INRPJ4 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/carlo/Downloads/project_10_3/project_10_3.sim/sim_1/synth/timing/fact_co_processor_wrapper_tb_time_synth.v
@@ -64,9 +64,9 @@ end
         .O(done));
   fact_machine_wrapper fact_machine_wrapper_1
        (.CLK(src_clk_IBUF_BUFG),
+        .D(fact_machine_wrapper_1_n_0),
         .Q(result_OBUF),
         .SR(ps_out_1),
-        .done_reg_0(fact_machine_wrapper_1_n_0),
         .n_IBUF(n_IBUF),
         .ps_out_2(ps_out_2));
   IBUF go_IBUF_inst
@@ -177,9 +177,9 @@ end
         .D(go_IBUF),
         .ps_out_2(ps_out_2));
   pulse_sync_1 pulse_sync_3
-       (.des_clk_IBUF_BUFG(des_clk_IBUF_BUFG),
-        .done_OBUF(done_OBUF),
-        .done_reg(fact_machine_wrapper_1_n_0));
+       (.CLK(des_clk_IBUF_BUFG),
+        .D(fact_machine_wrapper_1_n_0),
+        .done_OBUF(done_OBUF));
   OBUF \result_OBUF[0]_inst 
        (.I(result_OBUF[0]),
         .O(result[0]));
@@ -288,13 +288,13 @@ end
 endmodule
 
 module fact_machine_wrapper
-   (done_reg_0,
+   (D,
     Q,
     CLK,
     ps_out_2,
     SR,
     n_IBUF);
-  output done_reg_0;
+  output [0:0]D;
   output [31:0]Q;
   input CLK;
   input ps_out_2;
@@ -302,6 +302,7 @@ module fact_machine_wrapper
   input [31:0]n_IBUF;
 
   wire CLK;
+  wire [0:0]D;
   wire \FSM_onehot_state[0]_i_1_n_0 ;
   wire \FSM_onehot_state[10]_i_1_n_0 ;
   wire \FSM_onehot_state[11]_i_1_n_0 ;
@@ -815,7 +816,6 @@ module fact_machine_wrapper
   wire \cnt_2[31]_i_1_n_0 ;
   wire [31:1]cnt_2_0;
   wire done_i_1_n_0;
-  wire done_reg_0;
   wire [31:0]n_IBUF;
   wire ps_out_2;
   wire \result[0]_i_1_n_0 ;
@@ -3985,7 +3985,7 @@ module fact_machine_wrapper
   LUT4 #(
     .INIT(16'h002E)) 
     done_i_1
-       (.I0(done_reg_0),
+       (.I0(D),
         .I1(\FSM_onehot_state_reg_n_0_[11] ),
         .I2(ps_out_2),
         .I3(SR),
@@ -3996,7 +3996,7 @@ module fact_machine_wrapper
        (.C(CLK),
         .CE(1'b1),
         .D(done_i_1_n_0),
-        .Q(done_reg_0),
+        .Q(D),
         .R(1'b0));
   LUT2 #(
     .INIT(4'h8)) 
@@ -5207,9 +5207,68 @@ module pulse_sync
 
   wire CLK;
   wire [0:0]D;
-  wire \FF_sync_reg_n_0_[0] ;
   wire [0:0]SR;
+  wire [1:1]p_0_in;
+  wire p_0_in_0;
+  wire p_1_in;
+  wire ps_out_i_1_n_0;
+
+  FDRE #(
+    .INIT(1'b0)) 
+    \FF_sync_reg[0] 
+       (.C(CLK),
+        .CE(1'b1),
+        .D(D),
+        .Q(p_0_in),
+        .R(1'b0));
+  FDRE #(
+    .INIT(1'b0)) 
+    \FF_sync_reg[1] 
+       (.C(CLK),
+        .CE(1'b1),
+        .D(p_0_in),
+        .Q(p_0_in_0),
+        .R(1'b0));
+  FDRE #(
+    .INIT(1'b0)) 
+    \FF_sync_reg[2] 
+       (.C(CLK),
+        .CE(1'b1),
+        .D(p_0_in_0),
+        .Q(p_1_in),
+        .R(1'b0));
+  LUT2 #(
+    .INIT(4'h6)) 
+    ps_out_i_1
+       (.I0(p_1_in),
+        .I1(p_0_in_0),
+        .O(ps_out_i_1_n_0));
+  FDRE #(
+    .INIT(1'b0)) 
+    ps_out_reg
+       (.C(CLK),
+        .CE(1'b1),
+        .D(ps_out_i_1_n_0),
+        .Q(SR),
+        .R(1'b0));
+endmodule
+
+(* ORIG_REF_NAME = "pulse_sync" *) 
+module pulse_sync_0
+   (ps_out_2,
+    CLK,
+    D);
+  output ps_out_2;
+  input CLK;
+  input [0:0]D;
+
+  wire CLK;
+  wire [0:0]D;
+  wire \FF_sync_reg_n_0_[0] ;
   wire p_0_in;
+  wire p_1_in;
+  wire ps_out_2;
+  wire ps_out_i_1__0_n_0;
 
   FDRE #(
     .INIT(1'b0)) 
@@ -5229,28 +5288,44 @@ module pulse_sync
         .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
-    ps_out_reg
+    \FF_sync_reg[2] 
        (.C(CLK),
         .CE(1'b1),
         .D(p_0_in),
-        .Q(SR),
+        .Q(p_1_in),
+        .R(1'b0));
+  LUT2 #(
+    .INIT(4'h6)) 
+    ps_out_i_1__0
+       (.I0(p_1_in),
+        .I1(p_0_in),
+        .O(ps_out_i_1__0_n_0));
+  FDRE #(
+    .INIT(1'b0)) 
+    ps_out_reg
+       (.C(CLK),
+        .CE(1'b1),
+        .D(ps_out_i_1__0_n_0),
+        .Q(ps_out_2),
         .R(1'b0));
 endmodule
 
 (* ORIG_REF_NAME = "pulse_sync" *) 
-module pulse_sync_0
-   (ps_out_2,
+module pulse_sync_1
+   (done_OBUF,
     CLK,
     D);
-  output ps_out_2;
+  output done_OBUF;
   input CLK;
   input [0:0]D;
 
   wire CLK;
   wire [0:0]D;
   wire \FF_sync_reg_n_0_[0] ;
-  wire \FF_sync_reg_n_0_[1] ;
-  wire ps_out_2;
+  wire done_OBUF;
+  wire p_0_in;
+  wire p_1_in;
+  wire ps_out_i_1__1_n_0;
 
   FDRE #(
     .INIT(1'b0)) 
@@ -5266,51 +5341,28 @@ module pulse_sync_0
        (.C(CLK),
         .CE(1'b1),
         .D(\FF_sync_reg_n_0_[0] ),
-        .Q(\FF_sync_reg_n_0_[1] ),
+        .Q(p_0_in),
         .R(1'b0));
+  FDRE #(
+    .INIT(1'b0)) 
+    \FF_sync_reg[2] 
+       (.C(CLK),
+        .CE(1'b1),
+        .D(p_0_in),
+        .Q(p_1_in),
+        .R(1'b0));
+  LUT2 #(
+    .INIT(4'h6)) 
+    ps_out_i_1__1
+       (.I0(p_1_in),
+        .I1(p_0_in),
+        .O(ps_out_i_1__1_n_0));
   FDRE #(
     .INIT(1'b0)) 
     ps_out_reg
        (.C(CLK),
         .CE(1'b1),
-        .D(\FF_sync_reg_n_0_[1] ),
-        .Q(ps_out_2),
-        .R(1'b0));
-endmodule
-
-(* ORIG_REF_NAME = "pulse_sync" *) 
-module pulse_sync_1
-   (done_OBUF,
-    done_reg,
-    des_clk_IBUF_BUFG);
-  output done_OBUF;
-  input done_reg;
-  input des_clk_IBUF_BUFG;
-
-  wire \FF_sync_reg[1]_srl2_n_0 ;
-  wire des_clk_IBUF_BUFG;
-  wire done_OBUF;
-  wire done_reg;
-
-  (* srl_bus_name = "\pulse_sync_3/FF_sync_reg " *) 
-  (* srl_name = "\pulse_sync_3/FF_sync_reg[1]_srl2 " *) 
-  SRL16E #(
-    .INIT(16'h0000)) 
-    \FF_sync_reg[1]_srl2 
-       (.A0(1'b1),
-        .A1(1'b0),
-        .A2(1'b0),
-        .A3(1'b0),
-        .CE(1'b1),
-        .CLK(des_clk_IBUF_BUFG),
-        .D(done_reg),
-        .Q(\FF_sync_reg[1]_srl2_n_0 ));
-  FDRE #(
-    .INIT(1'b0)) 
-    ps_out_reg
-       (.C(des_clk_IBUF_BUFG),
-        .CE(1'b1),
-        .D(\FF_sync_reg[1]_srl2_n_0 ),
+        .D(ps_out_i_1__1_n_0),
         .Q(done_OBUF),
         .R(1'b0));
 endmodule

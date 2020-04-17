@@ -1,6 +1,6 @@
 # compile verilog/system verilog design source files
-sv xil_defaultlib  "../../../project_10_3.srcs/sources_1/new/fact_machine_wrapper.sv"
 sv xil_defaultlib  "../../../project_10_3.srcs/sources_1/new/pulse_sync.sv"
+sv xil_defaultlib  "../../../project_10_3.srcs/sources_1/new/fact_machine_wrapper.sv"
 sv xil_defaultlib  "../../../project_10_3.srcs/sources_1/new/fact_co_processor_wrapper.sv"
 sv xil_defaultlib  "../../../project_10_3.srcs/sim_1/new/fact_co_processor_wrapper_tb.sv"
 

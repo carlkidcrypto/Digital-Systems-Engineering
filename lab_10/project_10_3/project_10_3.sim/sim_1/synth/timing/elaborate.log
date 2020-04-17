@@ -30,7 +30,6 @@ Compiling module simprims_ver.LUT1
 Compiling module xil_defaultlib.fact_machine_wrapper
 Compiling module xil_defaultlib.pulse_sync
 Compiling module xil_defaultlib.pulse_sync_0
-Compiling module simprims_ver.SRL16E
 Compiling module xil_defaultlib.pulse_sync_1
 Compiling module xil_defaultlib.fact_co_processor_wrapper
 Compiling module xil_defaultlib.fact_co_processor_wrapper_tb

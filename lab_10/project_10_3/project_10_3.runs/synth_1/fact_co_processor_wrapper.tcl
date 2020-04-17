@@ -16,8 +16,8 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo c:/Users/carlo/Downloads/project_10_3/project_10_3.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/carlo/Downloads/project_10_3/project_10_3.srcs/sources_1/new/fact_machine_wrapper.sv
   C:/Users/carlo/Downloads/project_10_3/project_10_3.srcs/sources_1/new/pulse_sync.sv
+  C:/Users/carlo/Downloads/project_10_3/project_10_3.srcs/sources_1/new/fact_machine_wrapper.sv
   C:/Users/carlo/Downloads/project_10_3/project_10_3.srcs/sources_1/new/fact_co_processor_wrapper.sv
 }
 foreach dcp [get_files -quiet -all *.dcp] {

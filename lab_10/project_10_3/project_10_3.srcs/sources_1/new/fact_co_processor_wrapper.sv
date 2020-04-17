@@ -43,20 +43,23 @@ module fact_co_processor_wrapper(
         .ps_in(go),
         .ps_out(ps_out_2)
     );
-    
-    // For the done signal
-    pulse_sync pulse_sync_3(
-        .ps_clk(des_clk),
-        .ps_in(done_fact_machine_wrapper),
-        .ps_out(done)
-    );
-    
+      
     fact_machine_wrapper fact_machine_wrapper_1(
         .rst(ps_out_1),
         .go(ps_out_2),
-        .clk(src_clk),
+        .clk(des_clk),
         .n(n),
         .result(result),
         .done(done_fact_machine_wrapper)
     );
+    
+    always_ff@(posedge src_clk)
+    begin
+        //2-FF sync for done signal to src domain
+        logic [1:0] FF_SYNC;
+        FF_SYNC[0] <= done_fact_machine_wrapper;
+        FF_SYNC[1] <= FF_SYNC[0];
+        done <= FF_SYNC[1];
+    end
+    
 endmodule

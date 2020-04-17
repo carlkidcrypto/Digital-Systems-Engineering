@@ -171,7 +171,10 @@ module fact_machine_wrapper(
                                     state <= start;
                                 end
                             else
-                                state <= send_done;
+                                begin
+                                    done <= 1;
+                                    state <= send_done;
+                                end
                         end
                     
                 endcase
