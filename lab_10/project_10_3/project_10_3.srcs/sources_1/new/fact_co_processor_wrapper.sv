@@ -28,38 +28,40 @@ module fact_co_processor_wrapper(
     );
     
     //Internal Siganls
-    logic ps_out_1,ps_out_2,ps_out_3;
-    logic done_fact_machine_wrapper;
+    logic rst_fmw1,go_fmw1,done_fwm1;
+    logic [31:0] result_fmw1,n_fmw1;
     
-    // For the rst signal
-    pulse_sync pulse_sync_1(
-        .ps_clk(src_clk),
-        .ps_in(rst),
-        .ps_out(ps_out_1)
+    fact_machine_wrapper fmw1 (
+    .rst(rst_fmw1),
+    .go(go_fmw1),
+    .clk(des_clk),
+    .n(n_fmw1),
+    .result(result_fmw1),
+    .done(done_fmw1)
     );
-    // For the go signal
-    pulse_sync pulse_sync_2(
-        .ps_clk(src_clk),
-        .ps_in(go),
-        .ps_out(ps_out_2)
-    );
-      
-    fact_machine_wrapper fact_machine_wrapper_1(
-        .rst(ps_out_1),
-        .go(ps_out_2),
-        .clk(des_clk),
-        .n(n),
-        .result(result),
-        .done(done_fact_machine_wrapper)
-    );
+        
+    assign result = result_fmw1;
+    assign done = done_fmw1;
+    assign n_fmw1 = n;
     
-    always_ff@(posedge src_clk)
+    logic [2:0] go_reg;
+    logic [2:0] rst_reg;
+     
+    always_ff@(posedge des_clk)
     begin
-        //2-FF sync for done signal to src domain
-        logic [1:0] FF_SYNC;
-        FF_SYNC[0] <= done_fact_machine_wrapper;
-        FF_SYNC[1] <= FF_SYNC[0];
-        done <= FF_SYNC[1];
-    end
+        
+        // go fmw1 signal in
+        go_reg[0] <= go;
+        go_reg[1] <= go_reg[0];
+        go_reg[2] <= go_reg[1];
+        go_fmw1 <= go_reg[2] ^ go_reg[1];
+        
+         // rst fmw1 signal in
+         rst_reg[0] <= rst;
+         rst_reg[1] <= rst_reg[0];
+         rst_reg[2] <= rst_reg[1];
+         rst_fmw1 <= rst_reg[2] ^ rst_reg[1];
+                        
+    end    
     
 endmodule

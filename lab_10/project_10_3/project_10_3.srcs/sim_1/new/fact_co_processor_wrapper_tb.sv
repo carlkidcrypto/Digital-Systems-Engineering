@@ -56,19 +56,19 @@ module fact_co_processor_wrapper_tb;
    n = 4;   
    @(posedge src_clk); // align with clock edge
            
-   rst = 1; repeat(2)#SRC_CLK_PRD;
-   rst = 0; repeat(2) #SRC_CLK_PRD;
-   go = 1; repeat(2) #SRC_CLK_PRD;
-   go = 0; repeat(2) #SRC_CLK_PRD;
-   repeat(30) #SRC_CLK_PRD;
-   n = 9; #SRC_CLK_PRD;
-   go = 1; repeat(2) #SRC_CLK_PRD;
-   go = 0; repeat(2) #SRC_CLK_PRD;          
-   repeat(75) #SRC_CLK_PRD;
-   n = 12; #SRC_CLK_PRD;
-   go = 1; repeat(2) #SRC_CLK_PRD;
-   go = 0; repeat(2) #SRC_CLK_PRD;        
-   repeat(100) #SRC_CLK_PRD;
+   rst = 1; #DES_CLK_PRD;
+   rst = 0; #DES_CLK_PRD;
+   go = 1;  #DES_CLK_PRD;
+   go = 0;  #DES_CLK_PRD;
+   repeat(100) #DES_CLK_PRD;
+   n = 9; #DES_CLK_PRD;
+   go = 1; #DES_CLK_PRD;
+   go = 0; #DES_CLK_PRD;          
+   repeat(150) #DES_CLK_PRD;
+   n = 12; #DES_CLK_PRD;
+   go = 1; #DES_CLK_PRD;
+   go = 0; #DES_CLK_PRD;        
+   repeat(200) #DES_CLK_PRD;
               
    $finish;
    end
